@@ -1,0 +1,31 @@
+{
+      "name": "assets-test",
+      "version": "0.0.1",
+      "stability": "experimental",
+      "main": "src/components/assets-test.js",
+      "scripts": {
+        "test": "blackjack test",
+        "preview": "blackjack preview"
+      },
+      "license": "BSD-3-Clause",
+      "blackjack": {
+        "templateLanguage": "handlebars",
+        "preview": "src/preview.js",
+        "index": "src/index.js",
+        "handlebars": {
+          "data": "sample/data.json",
+          "helpers": "src/helpers.js",
+          "template": "template.hbs"
+        },
+        "css": {
+          "main": "styles/components/assets-test.scss"
+        }
+      },
+      "dependencies": {
+        "assets": "https://github.com/welikeideas/assets.git"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/welikeideas/assets-test.git"
+      }
+    }

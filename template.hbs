@@ -1,0 +1,24 @@
+<div class="assets-test">
+    <dl>
+        <dt>Logo</dt>
+        <dd>{{#if icons.sky}}{{{icons.sky}}}{{else}}{{{renderSVG "site-logo"}}}{{/if}}</dd>
+
+        <dt>Sky Icon</dt>
+        <dd>{{#if icons.sky}}{{{icons.sky}}}{{else}}{{{renderPNG "sky-spectrum-logo"}}}{{/if}}</dd>
+
+        <dt>Search Icon</dt>
+        <dd>{{#if icons.search}}{{{icons.search}}}{{else}}NO IMAGE FOUND{{/if}}</dd>
+
+        <dt>Twitter Icon</dt>
+        <dd>{{#if icons.twitter}}{{{icons.twitter}}}{{else}}{{{renderSVG "twitter"}}}{{/if}}</dd>
+
+        <dt>Facebook Icon</dt>
+        <dd>{{#if icons.facebook}}{{{icons.facebook}}}{{else}}{{{renderSVG "facebook"}}}{{/if}}</dd>
+
+        <dt>No SVG Icon</dt>
+        <dd>{{#if icons.foo}}{{{icons.foo}}}{{else}}{{{renderSVG "foo"}}}{{/if}}</dd>
+
+        <dt>No PNG Icon</dt>
+        <dd>{{#if icons.bar}}{{{icons.bar}}}{{else}}{{{renderPNG "bar"}}}{{/if}}</dd>
+    </dl>
+</div>
