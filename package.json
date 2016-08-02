@@ -1,8 +1,8 @@
 {
-      "name": "assets-test",
+      "name": "blackjack-assets-test",
       "version": "0.0.1",
       "stability": "experimental",
-      "main": "src/components/assets-test.js",
+      "main": "src/components/blackjack-assets-test.js",
       "scripts": {
         "test": "blackjack test",
         "preview": "blackjack preview"
@@ -18,7 +18,7 @@
           "template": "template.hbs"
         },
         "css": {
-          "main": "styles/components/assets-test.scss"
+          "main": "styles/components/blackjack-assets-test.scss"
         }
       },
       "dependencies": {
@@ -26,6 +26,6 @@
       },
       "repository": {
         "type": "git",
-        "url": "git+https://github.com/welikeideas/assets-test.git"
+        "url": "git+https://github.com/welikeideas/blackjack-assets-test.git"
       }
     }

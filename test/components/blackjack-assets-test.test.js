@@ -1,4 +1,4 @@
-import AssetsTest from '../../src/components/assets-test';
+import AssetsTest from '../../src/components/blackjack-assets-test';
 
 describe('AssetsTest', () => {
   it('should render', () => {

@@ -1,4 +1,4 @@
-# Blackjack Component - Assets Test
+# Blackjack Component - Blackjack Assets Test
 
 * [Introduction](#introduction)
 * [Installation](#installation)
@@ -16,7 +16,7 @@ A readme for your component would go here.
 You can install this component using:
 
 ```
-npm install assets-test --save
+npm install blackjack-assets-test --save
 ```
 
 

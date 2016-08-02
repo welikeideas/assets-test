@@ -1,8 +1,8 @@
-import AssetsTest from './components/assets-test';
+import AssetsTest from './components/blackjack-assets-test';
 
 // By requiring the stylesheet here like this,
 // webpack will append the contents inside a
 // style tag in the document HEAD.
-require('../styles/components/assets-test.scss');
+require('../styles/components/blackjack-assets-test.scss');
 
-AssetsTest(document.querySelector('.assets-test'));
+AssetsTest(document.querySelector('.blackjack-assets-test'));
